@@ -1,32 +1,61 @@
-# Coldwater Creek Developer Takehome
+# **Coldwater Creek - Product Slider Widget**
 
-Thank you for taking interest in our web developer role. We are excited to see what you will create. This test is not only for us to be able to evaluate your skills but also for you to takeaway a little bit of the day to day here at coldwater creek.
+This project is a **responsive product slider widget** built using **React and Glider.js**. It fetches products from an API and displays them in a horizontally scrollable format with navigation controls.
 
-## Your Task
 
-We have a big website update and need a widget that will display products in an slider. We must have the product name, price, category link, an call to action and the slider must be fully responsive. Unfortunately, this ask came late in the development circle and you only have an hour to get something pulled together.
+## **Features**
+- ✅ **Fully Responsive** - Works on mobile, tablet, and desktop.
+- ✅ **API Integration** - Fetches product data dynamically.
+- ✅ **Glider.js Carousel** - Smooth sliding effect with navigation controls.
+- ✅ **Product Details** - Displays name, category, price, and a "Buy Now" button.
+- ✅ **Accessible Navigation** - Keyboard and mouse controls for better UX.
 
-## Guidelines
+---
 
-    - This is meant to be an assignment that you spend approximately an  hour to hour and half on.  Do not feel like you need to overengineer 
-    the solution feel free to use any framework, npm packages that help speed up your workflow. 
-    Be biased toward the details that enhance UI/UX, accessibility and overall quality of design 
-    for mobile, tablet and desktop.
+## **Installation & Setup**
 
-    - You may use the products.json for the api data or the fake store api.
+### **1. Clone the repository**
+```sh
+git clone https://github.com/Srilakshmi-Allam/FrontendTest.git
+cd FrontendTest.git
+```
 
-    - Think of this like an open source project. Fork this repo, use git for source control,
-    put a pull request in, and send us links to the repo and github pages for our review.
+### **2. Install dependencies**
+```sh
+npm install
+```
 
-### Tools to help you achieve
+### **3. Start the development server**
+```sh
+npm start
+```
+This runs the app in development mode at `http://localhost:3000/`.
 
-https://sass-lang.com/
-https://tailwindcss.com/
-https://glidejs.com/
-https://kenwheeler.github.io/slick/
-https://fakestoreapi.com/
-https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter
+---
 
-### Example Of Final Product
 
-https://cwcdev.github.io/product_slider/
+## **Project Structure**
+```
+coldwater-creek-slider/
+│── src/
+│   ├── components/
+│   │   ├── ProductSlider.js  # Product slider component
+│   │   ├── ProductSlider.css # Styles for the slider
+│   ├── App.js                # Main App component
+│   ├── index.js              # React entry point
+│── public/
+│── package.json
+│── README.md
+```
+
+
+## **Technologies Used**
+- **React.js** - UI framework.
+- **Glider.js** - Lightweight, touch-enabled carousel.
+- **Axios** - Fetches product data from an API.
+- **CSS3** - Styling and responsiveness.
+
+---
+
+
+
